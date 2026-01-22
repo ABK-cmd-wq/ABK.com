@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>ABK.fr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Hello World !</h1>
+    <p>Ceci est un <strong>paragraphe</strong>. As-tu bien compris ?</p>
+
+    <h1>Ceci est un autre titre</h1>
+    <h2>Ceci est un sous-titre</h2>
+
+    <p id="para_1">Ceci est un paragraphe avec un style spécial.</p>
+
+    <a href="mon_autre_page.html">Clique ici pour aller sur l’autre page</a>
+
+    <p class="bye">Au revoir 👋</p>
+
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+}
+
+p {
+    font-size: 16px;
+}
+
+#para_1 {
+    color: white;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bye {
+    margin-top: 30px;
+    font-style: italic;
+}
